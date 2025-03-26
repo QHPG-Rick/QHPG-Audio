@@ -922,3 +922,4 @@ class SenseVoiceSmall(nn.Module):
             kwargs["max_seq_len"] = 512
         models = export_rebuild_model(model=self, **kwargs)
         return models
+    
